@@ -1,222 +1,167 @@
 [
   {
-    "question": "What does a red traffic light mean?",
+    "question": "What does a solid red traffic light mean?",
     "options": [
-      "Go",
-      "Stop",
-      "Yield",
-      "Slow down"
+      "Slow down and proceed if the way is clear.",
+      "Stop. You may turn right if the way is clear and there isn't a sign prohibiting it.",
+      "Stop, then proceed when you feel it is safe.",
+      "You may turn left or right."
     ],
     "correctAnswer": 1,
-    "explanation": "A red light means you must come to a complete stop until the light turns green."
+    "explanation": "A red light means you must come to a complete stop. In Ontario, you may turn right on a red light after stopping, unless a sign prohibits it. You may also turn left from a one-way street to a one-way street on a red light after stopping, unless a sign prohibits it."
   },
   {
-    "question": "At a four-way stop, who has the right of way?",
+    "question": "For G1 and G2 drivers, what is the legal Blood Alcohol Concentration (BAC) while driving?",
     "options": [
-      "The car on the left",
-      "The car on the right",
-      "The largest vehicle",
-      "Whoever honks first"
+      "0.08%",
+      "0.05%",
+      "0.00%",
+      "0.02%"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Ontario has a zero-tolerance policy for all young (21 and under) and novice (G1, G2) drivers. Your BAC must be 0.00%."
+  },
+  {
+    "question": "As a G1 driver, who is the only passenger allowed in the front seat with you?",
+    "options": [
+      "Any person over 18",
+      "Your accompanying driver with at least 4 years of driving experience.",
+      "A licensed driving instructor only.",
+      "Your parent or legal guardian."
     ],
     "correctAnswer": 1,
-    "explanation": "At a four-way stop, the driver on the right always goes first if vehicles arrive at the same time."
+    "explanation": "A G1 driver must be accompanied by a fully licensed driver with at least four years of experience, and they must sit in the front passenger seat. Their BAC must be below 0.05% (or 0.00% if they are 21 or under)."
   },
   {
     "question": "What does a flashing yellow traffic light mean?",
     "options": [
-      "Stop immediately",
-      "Proceed with caution",
-      "Go full speed",
-      "Traffic light is broken"
+      "The traffic light is broken, treat as a four-way stop.",
+      "Slow down and proceed with caution.",
+      "Stop immediately.",
+      "Speed up to clear the intersection."
     ],
     "correctAnswer": 1,
-    "explanation": "A flashing yellow means slow down and proceed through the intersection carefully."
+    "explanation": "A flashing yellow light means you should slow down and proceed through the intersection with caution, yielding to pedestrians and other traffic."
   },
   {
-    "question": "When must you yield to a pedestrian?",
+    "question": "At a pedestrian crossover with flashing overhead lights, what must a driver do?",
     "options": [
-      "Only when they are on the same side of the road",
-      "Only at crosswalks with traffic lights",
-      "At all crosswalks and intersections",
-      "Only if they wave at you"
+      "Honk to alert the pedestrian.",
+      "Slow down and drive around the pedestrian.",
+      "Stop and wait for the pedestrian to completely cross the entire road.",
+      "Yield the right-of-way and proceed once the pedestrian has passed your vehicle."
     ],
     "correctAnswer": 2,
-    "explanation": "Drivers must always yield to pedestrians at marked or unmarked crosswalks and intersections."
+    "explanation": "At a pedestrian crossover with flashing lights, you must stop and wait until the pedestrian has completely reached the other side of the road before proceeding."
   },
   {
-    "question": "What does this road sign mean: a red triangle with the point down?",
+    "question": "When approaching a stopped school bus with its red lights flashing, on a road WITHOUT a median, what must you do?",
     "options": [
-      "Stop",
-      "Yield",
-      "Do not enter",
-      "Caution"
+      "Slow down and pass with caution.",
+      "Stop, regardless of your direction of travel.",
+      "Only stop if you are behind the bus.",
+      "Honk to let the bus driver know you are passing."
     ],
     "correctAnswer": 1,
-    "explanation": "An upside-down red triangle means YIELD — slow down and give the right of way if needed."
+    "explanation": "On any road without a median strip, traffic in both directions must stop for a school bus with its red lights flashing. Only proceed when the lights stop flashing and the bus begins to move."
   },
   {
-    "question": "What is the legal blood alcohol concentration (BAC) limit for drivers over 21 in most states?",
+    "question": "What does a solid yellow line on your side of the centre line mean?",
     "options": [
-      "0.08%",
-      "0.05%",
-      "0.10%",
-      "0.15%"
+      "You may pass if it is safe.",
+      "Passing is not permitted.",
+      "The lane is ending.",
+      "You are in a school zone."
     ],
-    "correctAnswer": 0,
-    "explanation": "In most states, the legal BAC limit for drivers over 21 is 0.08%."
+    "correctAnswer": 1,
+    "explanation": "A solid yellow line on your side of the road means you are not allowed to pass other vehicles."
   },
   {
-    "question": "When should you use your turn signals?",
+    "question": "If you see an emergency vehicle with its lights and siren on, what does Ontario's 'Move Over' law require you to do on a multi-lane highway?",
     "options": [
-      "Only when turning left",
-      "Only when turning right",
-      "When changing lanes or turning",
-      "Only in heavy traffic"
+      "Speed up to get out of the way.",
+      "Stop immediately in your lane.",
+      "Slow down and, if safe, move over to an adjacent lane to provide an empty lane next to the emergency vehicle.",
+      "Maintain your speed and lane position."
     ],
     "correctAnswer": 2,
-    "explanation": "You should always use your turn signals when changing lanes or making turns to inform other drivers of your intentions."
+    "explanation": "Ontario's Move Over law requires you to slow down and move into another lane if it's safe to do so, leaving a lane of space between you and the stopped emergency vehicle. The fine for not doing so is significant."
   },
   {
-    "question": "What does a solid yellow line on your side of the road mean?",
+    "question": "How many demerit points will a G2 driver receive for having a BAC above 0.00%?",
     "options": [
-      "You may pass if safe",
-      "No passing allowed",
-      "Road is slippery",
-      "Construction zone"
+      "2 points",
+      "3 points",
+      "No points, just a fine.",
+      "Your license will be suspended for 30 days on the first offense."
     ],
-    "correctAnswer": 1,
-    "explanation": "A solid yellow line on your side means no passing is allowed."
+    "correctAnswer": 3,
+    "explanation": "A G2 driver convicted of having a BAC above zero will face a minimum 30-day license suspension and other penalties. The demerit point system is separate from this immediate suspension."
   },
   {
-    "question": "What should you do if you see an emergency vehicle with flashing lights behind you?",
+    "question": "When must you use your vehicle's headlights in Ontario?",
     "options": [
-      "Speed up to get out of the way",
-      "Pull over to the right and stop",
-      "Ignore it and keep driving",
-      "Honk to let them know you're there"
-    ],
-    "correctAnswer": 1,
-    "explanation": "You should pull over to the right side of the road and stop to allow the emergency vehicle to pass safely."
-  },
-  {
-    "question": "What does this sign indicate: a yellow diamond with a black cross?",
-    "options": [
-      "Hospital ahead",
-      "Railroad crossing",
-      "Intersection ahead",
-      "Pedestrian crossing"
+      "Only when it is dark outside.",
+      "Only during rain or snow.",
+      "From half an hour before sunset to half an hour after sunrise, and anytime visibility is poor.",
+      "From one hour before sunset to one hour after sunrise."
     ],
     "correctAnswer": 2,
-    "explanation": "A yellow diamond with a black cross indicates an intersection ahead where other vehicles may be crossing."
+    "explanation": "In Ontario, you must use your headlights from 30 minutes before sunset until 30 minutes after sunrise, and at any other time you cannot see clearly for 150 metres (500 feet)."
   },
   {
-    "question": "When driving in fog, you should use:",
+    "question": "What does a diamond-shaped sign with a black cross inside indicate?",
     "options": [
-      "High beam headlights",
-      "Low beam headlights",
-      "Parking lights only",
-      "No lights"
-    ],
-    "correctAnswer": 1,
-    "explanation": "In fog, you should use low beam headlights to improve visibility without causing glare."
-  },
-  {
-    "question": "What is the purpose of a 'No-Zone' around large trucks?",
-    "options": [
-      "To indicate where trucks can park",
-      "To show where trucks have blind spots",
-      "To mark the truck's stopping distance",
-      "To designate a loading area"
-    ],
-    "correctAnswer": 1,
-    "explanation": "'No-Zones' are areas around large trucks where the truck driver has limited or no visibility, making it dangerous for other vehicles to be in those zones."
-  },
-  {
-    "question": "What should you do if your vehicle starts to skid?",
-    "options": [
-      "Brake hard immediately",
-      "Turn the steering wheel in the direction of the skid",
-      "Turn the steering wheel away from the skid",
-      "Accelerate to regain control"
-    ],
-    "correctAnswer": 1,
-    "explanation": "If your vehicle starts to skid, you should turn the steering wheel in the direction of the skid to regain control."
-  },
-  {
-    "question": "What does a double solid yellow line in the center of the road mean?",
-    "options": [
-      "You may pass if safe",
-      "No passing allowed in either direction",
-      "Passing allowed only during daylight",
-      "Road is under construction"
-    ],
-    "correctAnswer": 1,
-    "explanation": "A double solid yellow line means no passing is allowed for vehicles traveling in either direction."
-  },
-  {
-    "question": "When approaching a school bus that is stopped with its red lights flashing, you must:",
-    "options": [
-      "Slow down and proceed with caution",
-      "Stop regardless of your direction of travel",
-      "Pass quickly to avoid delay",
-      "Honk to alert the bus driver"
-    ],
-    "correctAnswer": 1,
-    "explanation": "You must stop for a school bus with flashing red lights, regardless of your direction of travel, until the lights stop flashing."
-  },
-  {
-    "question": "What does this sign indicate: a white rectangle with a black arrow pointing left and the words 'One Way'?",
-    "options": [
-      "You must turn left",
-      "Traffic flows only in the direction of the arrow",
-      "No left turn allowed",
-      "Detour ahead"
-    ],
-    "correctAnswer": 1,
-    "explanation": "A 'One Way' sign indicates that traffic is allowed to flow only in the direction of the arrow."
-  },
-  {
-    "question": "When parking uphill on a two-way street with no curb, your front wheels should be:",
-    "options": [
-      "Turned to the left (toward the street)",
-      "Turned to the right (away from the street)",
-      "Parallel to the road",
-      "Straight ahead"
-    ],
-    "correctAnswer": 1,
-    "explanation": "When parking uphill without a curb, turn your front wheels to the right (away from the street) to prevent rolling into traffic if your vehicle starts to move."
-  },
-  {
-    "question": "What is the main purpose of traffic signs?",
-    "options": [
-      "To decorate the road",
-      "To provide information and ensure safety",
-      "To confuse drivers",
-      "To indicate speed limits only"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The main purpose of traffic signs is to provide information, regulate traffic, and ensure safety for all road users."
-  },
-  {
-    "question": "When are you allowed to use a cell phone while driving?",
-    "options": [
-      "At any time",
-      "Only when using a hands-free device",
-      "Only when stopped at a red light",
-      "Never"
-    ],
-    "correctAnswer": 1,
-    "explanation": "You are generally allowed to use a cell phone while driving only when using a hands-free device, as laws vary by location."
-  },
-  {
-    "question": "What should you do if you miss your exit on a highway?",
-    "options": [
-      "Back up carefully to the exit",
-      "Make a U-turn at the next gap in traffic",
-      "Continue to the next exit",
-      "Stop and ask for directions"
+      "Railway crossing ahead.",
+      "Hospital ahead.",
+      "Intersection or crossroads ahead.",
+      "Pedestrian crossing."
     ],
     "correctAnswer": 2,
-    "explanation": "If you miss your exit, you should continue to the next exit. Never back up or make a U-turn on a highway."
+    "explanation": "A yellow diamond sign is a warning sign. A black cross (X) inside it warns you of an upcoming intersection (crossroads)."
+  },
+  {
+    "question": "When parking uphill on a street with a curb, how should you turn your front wheels?",
+    "options": [
+      "Turned to the right (towards the curb).",
+      "Kept straight ahead.",
+      "Turned to the left (away from the curb).",
+      "It does not matter."
+    ],
+    "correctAnswer": 2,
+    "explanation": "When parking uphill with a curb, turn your wheels to the left (away from the curb). If your car rolls back, the front tires will catch the curb and stop the vehicle."
+  },
+  {
+    "question": "What should you do if your vehicle begins to skid on a slippery road?",
+    "options": [
+      "Brake hard and steer straight.",
+      "Steer in the opposite direction of the skid.",
+      "Take your foot off the brake and accelerator, and steer in the direction you want to go.",
+      "Accelerate to regain traction."
+    ],
+    "correctAnswer": 2,
+    "explanation": "If you start to skid, look where you want to go and steer in that direction. Avoid braking hard, as this can make the skid worse. Look and steer where you want the car to go."
+  },
+  {
+    "question": "As a G1 driver, you are not allowed to drive on '400-series' highways or major expressways unless...",
+    "options": [
+      "It is between sunrise and sunset.",
+      "You are with a licensed Ontario Driving Instructor.",
+      "You are driving a vehicle with an automatic transmission.",
+      "You have held your G1 for more than 8 months."
+    ],
+    "correctAnswer": 1,
+    "explanation": "G1 drivers are prohibited from driving on major Ontario highways (like the 401, 403, QEW, etc.) unless accompanied by a certified Ontario Driving Instructor in a dual-brake vehicle."
+  },
+  {
+    "question": "What does a sign showing a bicycle inside a green circle mean?",
+    "options": [
+      "No bicycles allowed on this road.",
+      "Bicycle repair shop ahead.",
+      "This is a designated route for bicycles.",
+      "Warning: bicycles may be crossing."
+    ],
+    "correctAnswer": 2,
+    "explanation": "A green circle is a permissive sign. A bicycle inside a green circle indicates that the lane or route is designated for use by cyclists."
   }
 ]
