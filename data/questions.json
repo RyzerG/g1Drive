@@ -53,5 +53,170 @@
     ],
     "correctAnswer": 1,
     "explanation": "An upside-down red triangle means YIELD — slow down and give the right of way if needed."
+  },
+  {
+    "question": "What is the legal blood alcohol concentration (BAC) limit for drivers over 21 in most states?",
+    "options": [
+      "0.08%",
+      "0.05%",
+      "0.10%",
+      "0.15%"
+    ],
+    "correctAnswer": 0,
+    "explanation": "In most states, the legal BAC limit for drivers over 21 is 0.08%."
+  },
+  {
+    "question": "When should you use your turn signals?",
+    "options": [
+      "Only when turning left",
+      "Only when turning right",
+      "When changing lanes or turning",
+      "Only in heavy traffic"
+    ],
+    "correctAnswer": 2,
+    "explanation": "You should always use your turn signals when changing lanes or making turns to inform other drivers of your intentions."
+  },
+  {
+    "question": "What does a solid yellow line on your side of the road mean?",
+    "options": [
+      "You may pass if safe",
+      "No passing allowed",
+      "Road is slippery",
+      "Construction zone"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A solid yellow line on your side means no passing is allowed."
+  },
+  {
+    "question": "What should you do if you see an emergency vehicle with flashing lights behind you?",
+    "options": [
+      "Speed up to get out of the way",
+      "Pull over to the right and stop",
+      "Ignore it and keep driving",
+      "Honk to let them know you're there"
+    ],
+    "correctAnswer": 1,
+    "explanation": "You should pull over to the right side of the road and stop to allow the emergency vehicle to pass safely."
+  },
+  {
+    "question": "What does this sign indicate: a yellow diamond with a black cross?",
+    "options": [
+      "Hospital ahead",
+      "Railroad crossing",
+      "Intersection ahead",
+      "Pedestrian crossing"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A yellow diamond with a black cross indicates an intersection ahead where other vehicles may be crossing."
+  },
+  {
+    "question": "When driving in fog, you should use:",
+    "options": [
+      "High beam headlights",
+      "Low beam headlights",
+      "Parking lights only",
+      "No lights"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In fog, you should use low beam headlights to improve visibility without causing glare."
+  },
+  {
+    "question": "What is the purpose of a 'No-Zone' around large trucks?",
+    "options": [
+      "To indicate where trucks can park",
+      "To show where trucks have blind spots",
+      "To mark the truck's stopping distance",
+      "To designate a loading area"
+    ],
+    "correctAnswer": 1,
+    "explanation": "'No-Zones' are areas around large trucks where the truck driver has limited or no visibility, making it dangerous for other vehicles to be in those zones."
+  },
+  {
+    "question": "What should you do if your vehicle starts to skid?",
+    "options": [
+      "Brake hard immediately",
+      "Turn the steering wheel in the direction of the skid",
+      "Turn the steering wheel away from the skid",
+      "Accelerate to regain control"
+    ],
+    "correctAnswer": 1,
+    "explanation": "If your vehicle starts to skid, you should turn the steering wheel in the direction of the skid to regain control."
+  },
+  {
+    "question": "What does a double solid yellow line in the center of the road mean?",
+    "options": [
+      "You may pass if safe",
+      "No passing allowed in either direction",
+      "Passing allowed only during daylight",
+      "Road is under construction"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A double solid yellow line means no passing is allowed for vehicles traveling in either direction."
+  },
+  {
+    "question": "When approaching a school bus that is stopped with its red lights flashing, you must:",
+    "options": [
+      "Slow down and proceed with caution",
+      "Stop regardless of your direction of travel",
+      "Pass quickly to avoid delay",
+      "Honk to alert the bus driver"
+    ],
+    "correctAnswer": 1,
+    "explanation": "You must stop for a school bus with flashing red lights, regardless of your direction of travel, until the lights stop flashing."
+  },
+  {
+    "question": "What does this sign indicate: a white rectangle with a black arrow pointing left and the words 'One Way'?",
+    "options": [
+      "You must turn left",
+      "Traffic flows only in the direction of the arrow",
+      "No left turn allowed",
+      "Detour ahead"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A 'One Way' sign indicates that traffic is allowed to flow only in the direction of the arrow."
+  },
+  {
+    "question": "When parking uphill on a two-way street with no curb, your front wheels should be:",
+    "options": [
+      "Turned to the left (toward the street)",
+      "Turned to the right (away from the street)",
+      "Parallel to the road",
+      "Straight ahead"
+    ],
+    "correctAnswer": 1,
+    "explanation": "When parking uphill without a curb, turn your front wheels to the right (away from the street) to prevent rolling into traffic if your vehicle starts to move."
+  },
+  {
+    "question": "What is the main purpose of traffic signs?",
+    "options": [
+      "To decorate the road",
+      "To provide information and ensure safety",
+      "To confuse drivers",
+      "To indicate speed limits only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The main purpose of traffic signs is to provide information, regulate traffic, and ensure safety for all road users."
+  },
+  {
+    "question": "When are you allowed to use a cell phone while driving?",
+    "options": [
+      "At any time",
+      "Only when using a hands-free device",
+      "Only when stopped at a red light",
+      "Never"
+    ],
+    "correctAnswer": 1,
+    "explanation": "You are generally allowed to use a cell phone while driving only when using a hands-free device, as laws vary by location."
+  },
+  {
+    "question": "What should you do if you miss your exit on a highway?",
+    "options": [
+      "Back up carefully to the exit",
+      "Make a U-turn at the next gap in traffic",
+      "Continue to the next exit",
+      "Stop and ask for directions"
+    ],
+    "correctAnswer": 2,
+    "explanation": "If you miss your exit, you should continue to the next exit. Never back up or make a U-turn on a highway."
   }
 ]
