@@ -1,57 +1,57 @@
 [
   {
     "question": "What does a red traffic light mean?",
-    "options": ["Go", "Stop", "Yield", "Slow down"],
-    "correctAnswer": 1
+    "options": [
+      "Go",
+      "Stop",
+      "Yield",
+      "Slow down"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A red light means you must come to a complete stop until the light turns green."
   },
   {
-    "question": "At a four-way stop, who goes first?",
+    "question": "At a four-way stop, who has the right of way?",
     "options": [
       "The car on the left",
       "The car on the right",
       "The largest vehicle",
       "Whoever honks first"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 1,
+    "explanation": "At a four-way stop, the driver on the right always goes first if vehicles arrive at the same time."
   },
   {
-    "question": "What is the minimum age to obtain a G1 license in Ontario?",
-    "options": ["14", "16", "18", "21"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "When are you allowed to turn right on a red light?",
+    "question": "What does a flashing yellow traffic light mean?",
     "options": [
-      "Never",
-      "Only when a sign permits it",
-      "After coming to a complete stop and ensuring it's safe",
-      "Only during daylight hours"
+      "Stop immediately",
+      "Proceed with caution",
+      "Go full speed",
+      "Traffic light is broken"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 1,
+    "explanation": "A flashing yellow means slow down and proceed through the intersection carefully."
   },
   {
-    "question": "What should you do if you see a school bus with flashing red lights?",
+    "question": "When must you yield to a pedestrian?",
     "options": [
-      "Slow down and pass carefully",
-      "Stop, regardless of your direction of travel",
-      "Honk to alert the bus driver",
-      "Continue driving if no children are visible"
+      "Only when they are on the same side of the road",
+      "Only at crosswalks with traffic lights",
+      "At all crosswalks and intersections",
+      "Only if they wave at you"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 2,
+    "explanation": "Drivers must always yield to pedestrians at marked or unmarked crosswalks and intersections."
   },
   {
-    "question": "What is the purpose of a yellow traffic light?",
+    "question": "What does this road sign mean: a red triangle with the point down?",
     "options": [
-      "To indicate that the light is about to turn red",
-      "To signal drivers to speed up",
-      "To warn of pedestrians crossing",
-      "To indicate a pedestrian crossing"
+      "Stop",
+      "Yield",
+      "Do not enter",
+      "Caution"
     ],
-    "correctAnswer": 0
-  },
-  {
-    "question": "How far must you park from a fire hydrant?",
-    "options": ["5 feet", "10 feet", "15 feet", "20 feet"],
-    "correctAnswer": 2
+    "correctAnswer": 1,
+    "explanation": "An upside-down red triangle means YIELD — slow down and give the right of way if needed."
   }
 ]

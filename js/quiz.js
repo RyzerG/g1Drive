@@ -14,7 +14,26 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 async function loadQuestions() {
   const res = await fetch("data/questions.json");
-  questions = await res.json();
+  const allQuestions = await res.json();
+
+  // shuffle and pick 25
+  shuffleArray(allQuestions);
+  questions = allQuestions.slice(0, 25);
+
+  // shuffle answers inside each question
+  questions = questions.map(q => {
+    const options = [...q.options];
+    shuffleArray(options);
+
+    const correctText = q.options[q.correctAnswer];
+    const newCorrectIndex = options.indexOf(correctText);
+
+    return {
+      ...q,
+      options,
+      correctAnswer: newCorrectIndex
+    };
+  });
 }
 
 function startQuiz() {
@@ -54,22 +73,19 @@ function handleAnswer(selected, correct, explanation) {
   options.forEach((btn, i) => {
     btn.disabled = true;
     if (i === correct) {
-      btn.style.backgroundColor = "rgba(16,185,129,0.2)"; // green tint
+      btn.style.backgroundColor = "rgba(16,185,129,0.2)";
       btn.innerHTML += " ✅";
     } else if (i === selected) {
-      btn.style.backgroundColor = "rgba(239,68,68,0.2)"; // red tint
+      btn.style.backgroundColor = "rgba(239,68,68,0.2)";
       btn.innerHTML += " ❌";
     }
   });
 
   if (selected === correct) score++;
 
-  // Show explanation
   const feedback = document.getElementById("feedback");
-  feedback.style.color = "inherit";
   feedback.textContent = explanation;
 
-  // Add continue button
   const contBtn = document.createElement("button");
   contBtn.textContent = "Continue →";
   contBtn.onclick = () => {
@@ -94,4 +110,11 @@ async function finishQuiz() {
   sessionStorage.setItem("lastScore", score);
   sessionStorage.setItem("totalQuestions", questions.length);
   window.location.href = "results.html";
+}
+
+function shuffleArray(arr) {
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
 }
