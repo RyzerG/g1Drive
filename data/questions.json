@@ -1,0 +1,57 @@
+[
+  {
+    "question": "What does a red traffic light mean?",
+    "options": ["Go", "Stop", "Yield", "Slow down"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "At a four-way stop, who goes first?",
+    "options": [
+      "The car on the left",
+      "The car on the right",
+      "The largest vehicle",
+      "Whoever honks first"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What is the minimum age to obtain a G1 license in Ontario?",
+    "options": ["14", "16", "18", "21"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "When are you allowed to turn right on a red light?",
+    "options": [
+      "Never",
+      "Only when a sign permits it",
+      "After coming to a complete stop and ensuring it's safe",
+      "Only during daylight hours"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What should you do if you see a school bus with flashing red lights?",
+    "options": [
+      "Slow down and pass carefully",
+      "Stop, regardless of your direction of travel",
+      "Honk to alert the bus driver",
+      "Continue driving if no children are visible"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What is the purpose of a yellow traffic light?",
+    "options": [
+      "To indicate that the light is about to turn red",
+      "To signal drivers to speed up",
+      "To warn of pedestrians crossing",
+      "To indicate a pedestrian crossing"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "How far must you park from a fire hydrant?",
+    "options": ["5 feet", "10 feet", "15 feet", "20 feet"],
+    "correctAnswer": 2
+  }
+]

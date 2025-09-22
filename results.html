@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Results - G1 Learning</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script type="module">
+    import { initTheme } from "./js/theme.js";
+    document.addEventListener("DOMContentLoaded", initTheme);
+  </script>
+</head>
+<body>
+  <button id="theme-toggle" class="theme-toggle">🌓</button>
+  <div class="container">
+    <h1>Quiz Complete!</h1>
+    <p>Your Score:</p>
+    <h2><span id="final-score"></span> / <span id="final-total"></span></h2>
+    <button onclick="window.location.href='quiz.html'">Play Again</button>
+    <button onclick="window.location.href='leaderboard.html'">Leaderboard</button>
+    <button onclick="window.location.href='welcome.html'">Home</button>
+  </div>
+</body>
+</html>

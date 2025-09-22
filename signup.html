@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sign Up - G1 Learning</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script type="module" src="js/auth.js" defer></script>
+</head>
+<body>
+  <button id="theme-toggle" class="theme-toggle">🌓</button>
+  <div class="container">
+    <h1>Sign Up</h1>
+    <form id="signup-form">
+        <input type="text" id="signup-name" placeholder="Full Name" required>
+        <input type="email" id="signup-email" placeholder="Email" required>
+        <input type="password" id="signup-password" placeholder="Password (min 6 chars)" required>
+        <button type="submit">Sign Up</button>
+    </form>
+    <p>Already have an account? <a href="index.html" class="link">Log In</a></p>
+    <p id="signup-error" class="error"></p>
+  </div>
+</body>
+</html>
