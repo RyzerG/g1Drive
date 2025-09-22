@@ -23,12 +23,18 @@ async function loadLeaderboard() {
   users.sort((a, b) => (b.points || 0) - (a.points || 0));
 
   users.forEach((u, i) => {
-    const row = document.createElement("tr");
-    row.innerHTML = `
-      <td>${i + 1}</td>
-      <td>${u.name || "Unknown"}</td>
-      <td>${u.points || 0}</td>
-    `;
-    leaderboardBody.appendChild(row);
-  });
+  let rankSymbol = i + 1;
+  if (i === 0) rankSymbol = "🏆";
+  else if (i === 1) rankSymbol = "🥈";
+  else if (i === 2) rankSymbol = "🥉";
+
+  const row = document.createElement("tr");
+  row.innerHTML = `
+    <td style="font-weight:bold; text-align:center;">${rankSymbol}</td>
+    <td>${u.name || "Unknown"}</td>
+    <td style="text-align:center;">${u.points || 0}</td>
+  `;
+  leaderboardBody.appendChild(row);
+});
+
 }

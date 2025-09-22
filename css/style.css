@@ -31,7 +31,20 @@ body.dark {
   background: white;
   border-radius: var(--radius);
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* center child elements */
 }
+
+.container form {
+  width: 100%;
+}
+
+input, button {
+  width: 100%;
+  box-sizing: border-box;
+}
+
 
 body.dark .container {
   background: #374151;
@@ -75,6 +88,14 @@ button:hover {
   margin-top: 0.5rem;
 }
 
+.explaination {
+  background: #e0f2fe;
+  border-left: 4px solid var(--primary);
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: var(--radius);
+}
+
 .link {
   color: var(--primary);
   text-decoration: none;
@@ -104,4 +125,42 @@ button:hover {
 }
 .theme-toggle:focus {
   outline: none;
+}
+
+.home-btn {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  background: var(--secondary);
+  color: white;
+  padding: 0.4rem 0.6rem;
+  border-radius: var(--radius);
+  transition: background 0.2s;
+}
+.home-btn:hover {
+  background: var(--primary);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 0.75rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+body.dark th, body.dark td {
+  border-color: #4b5563;
+}
+tr:hover {
+  background: rgba(0,0,0,0.05);
+}
+
+button.logout {
+  background: var(--danger);
+}
+button.logout:hover {
+  background: #b91c1c;
 }
