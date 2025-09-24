@@ -163,5 +163,104 @@
     ],
     "correctAnswer": 2,
     "explanation": "A green circle is a permissive sign. A bicycle inside a green circle indicates that the lane or route is designated for use by cyclists."
+  },
+  {
+    "question": "When are you allowed to use a handheld device while driving?",
+    "options": [
+      "When you are stopped at a red light.",
+      "When using a hands-free device.",
+      "When making a quick call.",
+      "You are never allowed to use a handheld device while driving."
+    ],
+    "correctAnswer": 3,
+    "explanation": "In Ontario, it is illegal to use any handheld device while driving, including for calls, texting, or other functions. You must use hands-free devices if you need to use your phone while driving."
+  },
+  {
+    "question": "What is the purpose of rumble strips on the side of the road?",
+    "options": [
+      "To alert drivers they are veering off the road.",
+      "To provide a smoother ride.",
+      "To indicate a pedestrian crossing ahead.",
+      "To mark the beginning of a school zone."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Rumble strips are designed to alert inattentive drivers through noise and vibration that they are leaving the travel lane. They help prevent accidents caused by drowsy or distracted driving."
+  },
+  {
+    "question": "What should you do if you approach an intersection with a non-functioning traffic light?",
+    "options": [
+      "Proceed through the intersection without stopping.",
+      "Stop and yield to all other vehicles and pedestrians as if it were a four-way stop.",
+      "Honk your horn and proceed with caution.",
+      "Wait for a police officer to direct traffic."
+    ],
+    "correctAnswer": 1,
+    "explanation": "If you encounter a non-functioning traffic light, treat the intersection as a four-way stop. Stop completely, then proceed when it is safe, yielding to other vehicles and pedestrians as necessary."
+  },
+  {
+    "question": "What is the maximum speed limit in an urban area in Ontario unless otherwise posted?",
+    "options": [
+      "40 km/h",
+      "50 km/h",
+      "60 km/h",
+      "70 km/h"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The default speed limit in urban areas in Ontario is 50 km/h unless otherwise posted. Always be attentive to speed limit signs as they may vary in different areas."
+  },
+  {
+    "question": "When can you make a left turn on a red light in Ontario?",
+    "options": [
+      "From a one-way street onto another one-way street, after stopping and ensuring it is safe.",
+      "From any street onto another street, after stopping.",
+      "Only when there is a sign permitting it.",
+      "You can never make a left turn on a red light."
+    ],
+    "correctAnswer": 0,
+    "explanation": "In Ontario, you may make a left turn on a red light only from a one-way street onto another one-way street, after coming to a complete stop and ensuring it is safe to do so. Always check for signs that may prohibit this action."
+  },
+  {
+    "question": "What should you do if you are being overtaken by another vehicle on a two-lane road?",
+    "options": [
+      "Speed up to prevent the vehicle from passing.",
+      "Maintain your speed and position.",
+      "Move to the right side of your lane and slow down slightly to allow the vehicle to pass safely.",
+      "Honk your horn to alert the driver."
+    ],
+    "correctAnswer": 2,
+    "explanation": "When being overtaken, you should move to the right side of your lane and slow down slightly to allow the other vehicle to pass safely. Do not speed up or block the passing vehicle."
+  },
+  {
+    "question": "What does a sign with a red circle and a diagonal line through a horn symbol indicate?",
+    "options": [
+      "No parking zone.",
+      "No honking or use of the vehicle's horn.",
+      "No entry for vehicles.",
+      "Pedestrian zone."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A sign with a red circle and a diagonal line through a horn symbol indicates that honking or using the vehicle's horn is prohibited in that area."
+  },
+  {
+    "question": "When driving in fog, what should you do to improve visibility?",
+    "options": [
+      "Use high beam headlights.",
+      "Use low beam headlights and fog lights if available.",
+      "Turn on your hazard lights.",
+      "Drive with your parking lights on."
+    ],
+    "correctAnswer": 1,
+    "explanation": "In foggy conditions, use low beam headlights and fog lights if your vehicle is equipped with them. High beams can reflect off the fog and reduce visibility."
+  },
+  {
+    "question": "What is the minimum following distance you should maintain behind another vehicle under normal driving conditions?",
+    "options": [
+      "One second.",
+      "Two seconds.",
+      "Three seconds.",
+      "Four seconds."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Under normal driving conditions, you should maintain a minimum following distance of three seconds behind the vehicle in front of you. This gives you enough time to react if the vehicle suddenly stops."
   }
 ]
