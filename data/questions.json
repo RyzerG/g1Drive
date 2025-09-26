@@ -262,5 +262,16 @@
     ],
     "correctAnswer": 2,
     "explanation": "Under normal driving conditions, you should maintain a minimum following distance of three seconds behind the vehicle in front of you. This gives you enough time to react if the vehicle suddenly stops."
+  },
+  {
+    "question": "What should you do if you see a pedestrian with a white cane or a guide dog at a crosswalk?",
+    "options": [
+      "Honk your horn to alert them.",
+      "Stop and give the pedestrian the right-of-way.",
+      "Proceed with caution without stopping.",
+      "Speed up to clear the crosswalk quickly."
+    ],
+    "correctAnswer": 1,
+    "explanation": "You must stop and give the right-of-way to pedestrians using a white cane or guide dog at crosswalks. They may have visual impairments and need extra time to cross safely."
   }
 ]
